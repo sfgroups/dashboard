@@ -49,9 +49,11 @@ export default function ControlContactForm() {
   };
 
   const onChangeHandler = (event: React.ChangeEvent<HTMLInputElement>) => {
-    setValue("firstName", event.target.value);
+    setValue("firstName", event.target.value);    
     if (event.target.value.toUpperCase() === "auto".toUpperCase()) {
       setValue("lastName", "Changed Name");
+      setValue("email", "summa@summa.com");
+      setValue("message", "This sample from");
     } 
   };
 
@@ -68,7 +70,7 @@ export default function ControlContactForm() {
               type="text"
               placeholder="First Name"
               onChange={onChangeHandler}
-              className={`form-input ${errors.firstName ? 'border-red-500' : ''}`}
+              className={`form-input bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500 ${errors.firstName ? 'border-red-500' : ''}`}
             />
           )}
         />
@@ -85,7 +87,7 @@ export default function ControlContactForm() {
               {...field}
               type="text"
               placeholder="Last Name"
-              className={`form-input ${errors.lastName ? 'border-red-500' : ''}`}
+              className={`form-input bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500 ${errors.lastName ? 'border-red-500' : ''}`}
             />
           )}
         />
@@ -102,7 +104,7 @@ export default function ControlContactForm() {
               {...field}
               type="email"
               placeholder="Email Address"
-              className={`form-input ${errors.email ? 'border-red-500' : ''}`}
+              className={`form-input bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500 ${errors.email ? 'border-red-500' : ''}`}
             />
           )}
         />
@@ -119,7 +121,7 @@ export default function ControlContactForm() {
               {...field}
               rows={5}
               placeholder="Message"
-              className={`form-input ${errors.message ? 'border-red-500' : ''}`}
+              className={`form-input bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500 ${errors.message ? 'border-red-500' : ''}`}
             />
           )}
         />
