@@ -50,4 +50,6 @@ npm install @mui/icons-material --save
 npm install yup --save
 npm i @hookform/resolvers --save
 npm i --save react-select
+
+npm install @headlessui/react@latest --save
 ```

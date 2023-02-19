@@ -7,6 +7,19 @@ import Link from "next/link"
 export default function FormSamples() {
     return (
         <div>
+
+<p>
+  I’m Derek, an astro-engineer based in Tatooine. I like to build X-Wings at
+  <a href="#" className="underline decoration-sky-500 decoration-2">My Company, Inc</a>. Outside of work, I
+  like to <a href="#" className="underline decoration-pink-500 decoration-dotted decoration-2">watch pod-racing</a>
+  and have <a href="#" className="underline decoration-indigo-500 decoration-wavy decoration-2">light-saber</a>
+  fights.
+</p>
+
+<button className="bg-cyan-500 shadow-lg shadow-cyan-500/50 ...">Subscribe</button>
+<button className="bg-blue-500 shadow-lg shadow-blue-500/50 ...">Subscribe</button>
+<button className="bg-indigo-500 shadow-lg shadow-indigo-500/50 ...">Subscribe</button>
+<br/>
             <Link className="bg-teal-500 text-black rounded-md" href={"/dashboard"}> Home</Link>
 
 
