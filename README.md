@@ -36,3 +36,18 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+```
+npm install react-hook-form --save
+
+npm install @mui/material @emotion/react @emotion/styled --save
+npm install @mui/material @mui/styled-engine-sc styled-components --save
+
+npm install @fontsource/roboto --save
+
+npm install @mui/icons-material --save
+
+npm install yup --save
+npm i @hookform/resolvers --save
+npm i --save react-select
+```
