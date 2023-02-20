@@ -4,13 +4,15 @@ import FormSamples from "./componentes/FormSamples";
 import EmailForm from "./componentes/EmailForm";
 import ControlContactForm from "./componentes/ControlContactForm";
 import Modal from "./componentes/Modal";
-import UserComponent from "./componentes/UserComponent"
+import FormDialog from "./componentes/FormDialog";
+import ShowUsers from "./componentes/ShowUsers";
+
 export default function Home() {
   return (
     <main>
-     <ControlContactForm/>
+     <FormDialog/>
       <br/>
-  
+  <ShowUsers/>
       <br/>
       
      
