@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from 'react';
-import { forwardRef } from 'react';
+import { forwardRef, Ref } from 'react';
 import Avatar from 'react-avatar';
 import Grid from '@material-ui/core/Grid'
 
@@ -23,6 +23,8 @@ import Search from '@material-ui/icons/Search';
 import ViewColumn from '@material-ui/icons/ViewColumn';
 import axios from 'axios'
 import Alert from '@material-ui/lab/Alert';
+/* eslint-disable react/display-name */
+
 
 const tableIcons = {
   Add: forwardRef((props, ref) => <AddBox {...props} ref={ref} />),

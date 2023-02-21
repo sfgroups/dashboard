@@ -14,17 +14,7 @@ export default function Home() {
     <main>
      <Example/>
      <br/>
-     <LocalStorage/>
-     <br/>
-     <div className="bg-clolor=read">
-     Toggle :
-     <Toaggle/>
-     </div>
-      <br/>
-  <ShowUsers/>
-      <br/>
-      
-     
+
     </main>
   )
 }

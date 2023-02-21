@@ -1,4 +1,4 @@
-import { Person } from './TS';
+import { Person } from './TableCurd';
 
 export const data: Person[] = [
   {

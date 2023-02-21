@@ -40,8 +40,9 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ```
 npm install react-hook-form --save
 
-npm install @mui/material @emotion/react @emotion/styled --save
-npm install @mui/material @mui/styled-engine-sc styled-components --save
+
+npm install @mui/styled-engine-sc styled-components --save
+npm install material-react-table @mui/material @mui/icons-material @emotion/react @emotion/styled @mui/styled-engine-sc styled-components --save
 
 npm install @fontsource/roboto --save
 
