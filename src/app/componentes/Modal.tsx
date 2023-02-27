@@ -1,5 +1,6 @@
 'use client';
 import React from "react";
+import TableCurd from "./TableCurd";
 
 export default function Modal() {
   const [showModal, setShowModal] = React.useState(false);
@@ -15,6 +16,7 @@ export default function Modal() {
 
       
       {showModal ? (
+       
         <>
           <div
             className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none"
@@ -45,6 +47,7 @@ export default function Modal() {
                     themselves. If youre taught you cant do anything, you
                     wont do anything. I was taught I could do everything.
                   </p>
+                  <TableCurd/>
                 </div>
                 {/*footer*/}
                 <div className="flex items-center justify-end p-6 border-t border-solid border-slate-200 rounded-b">

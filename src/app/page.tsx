@@ -8,11 +8,12 @@ import FormDialog from "./componentes/FormDialog";
 import ShowUsers from "./componentes/ShowUsers";
 import Toaggle from "./componentes/Toaggle"
 import LocalStorage from "./componentes/LocalStorage";
+import OpenModel from './componentes/OpenModel';
 
 export default function Home() {
   return (
     <main>
-     <Example/>
+     <OpenModel/>
      <br/>
 
     </main>
