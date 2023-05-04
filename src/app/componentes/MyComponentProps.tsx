@@ -10,6 +10,7 @@ const MyComponent: React.FC<Props> = ({ name, age }) => {
     useEffect(() => {
         // Update the document title using the browser API
         document.title = `You age ${age} times`;
+        age = 50;
       });
 
   return (
