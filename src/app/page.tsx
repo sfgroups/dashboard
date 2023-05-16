@@ -9,11 +9,12 @@ import ShowUsers from "./componentes/ShowUsers";
 import Toaggle from "./componentes/Toaggle"
 import LocalStorage from "./componentes/LocalStorage";
 import OpenModel from './componentes/OpenModel';
+import Registerform from "./componentes/forms/Registerform";
 
 export default function Home() {
   return (
     <main>
-     <OpenModel/>
+     <Registerform/>
      <br/>
 
     </main>
